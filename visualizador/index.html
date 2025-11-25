@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TP Introduccion a la Progrmacion</title>
+  <style>
+    :root {
+      --card: rgba(11,18,32,0.7);
+      --accent: #3b82f6;
+      --text: #e6eef8;
+      --muted: #c0d2ea;
+    }
+    html,body{height:100%;margin:0;font-family:Inter,Segoe UI,Helvetica,Arial,sans-serif;color:var(--text)}
+    /* Fondo con imagen y overlay para legibilidad */
+    body{
+      background:
+        linear-gradient(rgba(3,6,12,0.55), rgba(3,6,12,0.55)),
+        url(https://image0.uhdpaper.com/wallpaper/veigar-lol-splash-art-uhdpaper.com-4K-326.jpg) center/cover no-repeat fixed;
+    }
+    .wrap{max-width:980px;margin:40px auto;padding:24px;background:var(--card);border-radius:12px;box-shadow:0 6px 24px rgba(2,6,23,0.6);}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .titulo{display:flex;flex-direction:column}
+    h1{margin:0;font-size:20px;letter-spacing:0.2px}
+    .sub{color:var(--muted);font-size:13px;margin-top:6px}
+    nav{display:flex;gap:8px}
+    button{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text);padding:8px 12px;border-radius:8px;cursor:pointer;font-size:14px}
+    button.primary{background:var(--accent);border-color:transparent;color:white}
+    main{margin-top:20px}
+    .card{padding:18px;border-radius:10px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.03)}
+    @media (max-width:600px){.wrap{margin:16px;padding:16px} h1{font-size:18px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="titulo">
+        <h1>TP Introduccion a la Programación</h1>
+        <div class="sub">Trabajo práctico — Visualizador</div>
+      </div>
+      <nav>
+        <button id="btn-programa" class="primary" onclick="location.href='index1.html'">Programa</button>
+        <button id="btn-pdf" onclick="window.open('Informe.docx')">PDF</button>
+              </nav>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2 style="margin-top:0">Descripción</h2>
+        <p style="color:var(--muted)">Objetivo del trabajo: programar distintos algoritmos de ordenamiento y aplicarlos.
+          Algoritmos integrados exitosamente: Bubble Sort, Insertion Sort, Selection Sort, Shell Sort.</p>
+          
+          
+          
+      
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
