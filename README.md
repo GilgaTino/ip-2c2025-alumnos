@@ -1,7 +1,7 @@
 Integrantes: Silva Fabricio
 Sistemas Implementados: 
-Bubble
-Insertion
-Selection
-Shell
+Bubble,
+Insertion,
+Selection,
+Shell.
                           
