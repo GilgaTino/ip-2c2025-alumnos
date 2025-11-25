@@ -1,7 +1,7 @@
 Integrantes: Silva Fabricio
-Sistemas Implementados: 
+Algoritmos Implementados: 
 Bubble,
 Insertion,
 Selection,
 Shell.
-                          
+
