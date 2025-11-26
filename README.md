@@ -1,7 +1,7 @@
-Integrantes: Silva Fabricio
-Algoritmos Implementados: 
-Bubble,
-Insertion,
-Selection,
-Shell.
+Integrantes: Silva Fabricio <br>
+Algoritmos Implementados:<br>
+-Bubble<br>
+-Insertion<br>
+-Selection<br>
+-Shell
 
